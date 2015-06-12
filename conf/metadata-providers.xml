@@ -74,7 +74,10 @@
 
      -->
 
-    <MetadataProvider id="publisher"  xsi:type="FilesystemMetadataProvider" metadataFile="/opt/shibboleth-idp/metadata/carbon.xml"/>
+    <MetadataProvider id="publisher"  xsi:type="FilesystemMetadataProvider" metadataFile="/opt/shibboleth-idp/metadata/publisher.xml"/>
+
+    <MetadataProvider id="store"  xsi:type="FilesystemMetadataProvider" metadataFile="/opt/shibboleth-idp/metadata/store.xml"/>
+
 
           
     
